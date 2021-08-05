@@ -1,13 +1,14 @@
-import manHello from './assets/images/hombre2.png'
 import './App.css';
 import { CardInformation } from './shared/card-information/CardInformation';
 
 function App() {
 
   const propCardInformation = {
-    urlImg: manHello,
+    urlImg: process.env.REACT_APP_URL_IMAGE,
     text: 'Hola como estás mucho gusto'
   } 
+
+  console.log(process.env);
 
   return (
     <div className="App">

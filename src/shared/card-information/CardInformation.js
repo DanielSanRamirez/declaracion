@@ -8,8 +8,6 @@ export const CardInformation = (props) => {
         text
     } = props
 
-    console.log(props);
-
     return (
         <div className='card'>
             <img src={urlImg} alt='manImage' />
