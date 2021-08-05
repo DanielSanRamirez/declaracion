@@ -6,10 +6,9 @@ function App() {
 
   const propCardInformation = {
     urlImg: CARD.BEGINNING.URL_IMG,
-    text: 'Hola como estás mucho gusto'
-  } 
-
-  console.log(process.env);
+    textTitle: CARD.BEGINNING.TEXT_TITLE,
+    textBody: CARD.BEGINNING.TEXT_BODY
+  }
 
   return (
     <div className="App">

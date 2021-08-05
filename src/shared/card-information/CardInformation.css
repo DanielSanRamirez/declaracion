@@ -1,6 +1,7 @@
 .card {
     background-color: white;
     width: 80%;
+    border-radius: 20%;
 }
 
 .card img {
@@ -8,6 +9,31 @@
     height: auto;
 }
 
+.card h1 {
+    color:darkcyan;
+    font-family: 'MonteCarlo', cursive;
+    margin: 0;
+}
+
 .card p {
-    color: teal;
+    color: darkslateblue;
+    font-family: 'Lobster', cursive;
+    position: relative;
+
+    
+}
+
+.card p span {
+    position: absolute;
+    right: 80px;
+    width: 0;
+    background: white;
+
+    animation: maquina 10s infinite steps(100);
+}
+
+@keyframes maquina {
+    from {
+        width: 80%;
+    }
 }

@@ -5,13 +5,15 @@ export const CardInformation = (props) => {
 
     const {
         urlImg,
-        text
+        textTitle,
+        textBody
     } = props
 
     return (
-        <div className='card'>
-            <img src={urlImg} alt='manImage' />
-            <p>{text}</p>
+        <div className='card' >
+            <img src={urlImg} alt='manImage' className='animate__animated animate__pulse animate__infinite' />
+            <h1>{textTitle}</h1>
+            <p>{textBody}<span>&#160;</span></p>
         </div>
     )
 }
