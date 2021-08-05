@@ -1,0 +1,12 @@
+.card {
+    background-color: white;
+}
+
+.card img {
+    width: 40%;
+    height: auto;
+}
+
+.card p {
+    color: teal;
+}
