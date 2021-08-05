@@ -18,22 +18,4 @@
 .card p {
     color: darkslateblue;
     font-family: 'Lobster', cursive;
-    position: relative;
-
-    
-}
-
-.card p span {
-    position: absolute;
-    right: 80px;
-    width: 0;
-    background: white;
-
-    animation: maquina 10s infinite steps(100);
-}
-
-@keyframes maquina {
-    from {
-        width: 80%;
-    }
 }
