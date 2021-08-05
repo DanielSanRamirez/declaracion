@@ -1,10 +1,11 @@
 import './App.css';
+import { CARD } from './constants/card.constants';
 import { CardInformation } from './shared/card-information/CardInformation';
 
 function App() {
 
   const propCardInformation = {
-    urlImg: process.env.REACT_APP_URL_IMAGE,
+    urlImg: CARD.BEGINNING.URL_IMG,
     text: 'Hola como estás mucho gusto'
   } 
 
